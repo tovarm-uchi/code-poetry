@@ -1,0 +1,62 @@
+Melissa Tovar [Version 20.0.7571.266]
+(c) 2020 Life Corporation. No rights reserved.
+
+C:\Users\Melissa\> help
+For more information on a specific command, type HELP command-name
+ASSOC           Display or modfies personal associates
+ATTRIB          Displays or changes personal attributes
+BREAK           Sets or creates a break in a school or work
+CALL            Phone a friend to any known associates
+CD              Displays the name of or changes the current directory
+CHKDSK          Checks mental and physical health and displays a status report
+CLS             Clears whatever is happening at the moment
+COPY            Copies one or more files to another location
+DATE            Displays or sets the date.
+DEL             Deletes one or more files.
+HELP            Provides Help information for Life commands
+MKDIR           Creates a directory.
+MOVE            Moves one or more files from one directory to another directory
+RECOVER         Recovers mental and physical health in an associates
+RMDIR           Removes a directory.
+
+For more information on tools see the command-line reference in the live help
+
+C:\Users\Melissa> ls
+1999    2000    2001    2002
+2003    2004    2005    2006
+2007    2008    2009    2010
+2011    2012    2013    2014
+2015    2016    2017    2018
+2019    2020
+C:\Users\Melissa> cd 2020
+C:\Users\Melissa\2020> ls
+WINTER20    SPRING20    SUMMER20    FALL20
+MEMORIES    FRIENDS     FAMILY      COVID-19
+C:\Users\Melissa\2020> ../2016 ls
+WINTER16    SPRING16    SUMMER16    FALL16
+MEMORIES    FRIENDS     FAMILY
+C:\Users\Melissa\2020> ../2016/SUMMER16 ls
+POKEMONGO   NUEBAUER    NHI     HSFYLI
+MEETKELLEY  ./most_mememorable_summer
+C:\Users\Melissa\2020> RMDIR SUMMER20
+C:\Users\Melissa\2020> COPY ../2016/SUMMER16
+C:\Users\Melissa\2020> CHKDSK FRIENDS FAMILY
+Running CHKDSK in read-only mode.
+
+Stage 1: Examining basic associates system health
+    184 associates processed.
+
+Associate verification completed.
+
+Stage 2: Examining associates declining health
+    15 associates processed with declining health
+
+Associates verification completed.
+No further action is required.
+
+C:\Users\Melissa\2020> RECOVER declining_associates
+C:\Users\Melissa\2020> RMDIR COVID-19
+C:\Users\Melissa\2020> ls
+WINTER20    SPRING20    SUMMER16    FALL20
+MEMORIES    FRIENDS     FAMILY
+C:\Users\Melissa\2020> BREAK
